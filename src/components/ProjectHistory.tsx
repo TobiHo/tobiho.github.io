@@ -4,6 +4,7 @@ import { Calendar, Building, Users, Target, Clock } from "lucide-react";
 
 export const ProjectHistory = () => {
   const allProjects = [
+    
     {
       period: "04/2024 - Present",
       title: "Data Modeler - Privacy-Compliant DWH",
@@ -39,6 +40,32 @@ export const ProjectHistory = () => {
         "Risk controlling data modeling",
         "Integration, UAT, and regression testing"
       ]
+    },
+    {
+      period: "03/2025 - Present",
+      title: "Project Lead & Lead Developer – FOCUS (Digital Time Tracking System)",
+      company: "Holtkamp Consulting GmbH",
+      industry: "Consulting",
+      employees: "5",
+      role: "Project Lead & Lead Developer",
+      status: "active",
+      description:
+        "Management and development of a digital system for employee time tracking, working time controlling, project planning, and budgeting for a consulting company.",
+      technologies: [
+        "Linux", "GIT", "Python", "VS Code", "Flask", "nGinx", "PostgreSQL", "React", "Vite", "Tailwind", "Docker", "Portainer", "Jira", "Confluence", "OneNote", "Excel", "DrawIO"
+      ],
+      responsibilities: [
+        "Requirements analysis, stakeholder management, mockup creation",
+        "Frontend development for project and budget management",
+        "Frontend development for time tracking of all employee hours on projects including security",
+        "Frontend creation for overview/controlling of recorded hours per project",
+        "Planning and initial creation of core data warehouse according to Data Vault 2.0",
+        "Development and semantic planning of data mart for project controlling",
+        "Planning and initial creation of ETL process for daily data processing in core and data mart (including business completion)",
+        "Dashboard creation for project controlling with Power BI"
+      ],
+      methods: ["Waterfall"],
+      additional: "Part-time project"
     },
     {
       period: "02/2024 - 08/2025",
