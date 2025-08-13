@@ -1,6 +1,6 @@
 import { ProfileCard } from "@/components/ProfileCard";
 import { SkillsSection } from "@/components/SkillsSection";
-import { CurrentProjects } from "@/components/CurrentProjects";
+import { ProjectHistory } from "@/components/ProjectHistory";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 
 const Index = () => {
@@ -14,7 +14,7 @@ const Index = () => {
             <div className="hidden md:flex space-x-6 text-sm">
               <a href="#profile" className="text-muted-foreground hover:text-primary transition-colors">Profile</a>
               <a href="#skills" className="text-muted-foreground hover:text-primary transition-colors">Skills</a>
-              <a href="#current" className="text-muted-foreground hover:text-primary transition-colors">Current Work</a>
+              <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">Projects</a>
               <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors">Experience</a>
             </div>
           </div>
@@ -35,9 +35,9 @@ const Index = () => {
           <SkillsSection />
         </section>
 
-        {/* Current Projects Section */}
-        <section id="current">
-          <CurrentProjects />
+        {/* Complete Project History Section */}
+        <section id="projects">
+          <ProjectHistory />
         </section>
 
         {/* Experience Timeline Section */}
