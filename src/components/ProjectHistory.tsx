@@ -74,7 +74,7 @@ export const ProjectHistory = () => {
       industry: "Automotive Supplier, Heating Technology", 
       employees: "4,000+",
       role: "SAP Technology Expert",
-      status: "active",
+      status: "Completed",
       description: "SAP infrastructure management, Fiori implementation, and comprehensive system administration.",
       technologies: ["SAP S4/HANA", "SAP BTP", "SAP ALM", "SAP FIORI", "SAP CPI"],
       responsibilities: [
