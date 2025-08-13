@@ -41,7 +41,7 @@ export const ProjectHistory = () => {
       ]
     },
     {
-      period: "02/2024 - Present",
+      period: "02/2024 - 08/2025",
       title: "SAP Technology Expert & Basis Administrator",
       company: "Winkelmann Group",
       industry: "Automotive Supplier, Heating Technology", 

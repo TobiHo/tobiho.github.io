@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Linkedin, Github, ExternalLink } from "lucide-reac
 
 export const ProfileCard = () => {
   return (
-    <Card className="glass-card hover:hero-glow transition-all duration-500 animate-float">
+    <Card className="glass-card hover:hero-glow transition-all duration-500">
       <CardContent className="p-8">
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="w-32 h-32 rounded-full bg-gradient-primary flex items-center justify-center text-4xl font-bold text-primary-foreground">
@@ -14,15 +14,17 @@ export const ProfileCard = () => {
           
           <div className="space-y-2">
             <h1 className="text-3xl font-bold gradient-text">Tobias Holtkamp</h1>
-            <p className="text-xl text-muted-foreground">Senior SAP Technology Consultant</p>
+            <p className="text-xl text-muted-foreground">Senior Consultant SAP, Data & Analytics</p>
             <p className="text-sm text-muted-foreground">Holtkamp Consulting GmbH</p>
+            <p className="text-sm text-muted-foreground">Geschäftsführer</p>
           </div>
 
           <div className="flex flex-wrap gap-2 justify-center">
+            <Badge variant="skill">Data Analytics</Badge>
+            <Badge variant="skill">SAP Technology Expert</Badge>
             <Badge variant="skill">SAP BusinessObjects</Badge>
             <Badge variant="skill">Power BI</Badge>
             <Badge variant="skill">Azure Platform</Badge>
-            <Badge variant="skill">Data Analytics</Badge>
           </div>
 
           <div className="flex flex-col space-y-3 w-full max-w-sm">
