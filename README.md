@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Tobias Holtkamp – Digital CV
 
-## Project info
+Willkommen zu meinem digitalen Lebenslauf!  
+Diese Seite präsentiert meine beruflichen Stationen, Projekte und Skills in einem modernen, interaktiven Web-Format.
 
-**URL**: https://lovable.dev/projects/1f6d8b22-f4e7-4ff5-a169-6423a43442b1
+---
 
-## How can I edit this code?
+## 🚀 Schnellstart
 
-There are several ways of editing your application.
+```bash
+# Repository klonen
+git clone https://github.com/<dein-username>/tobias-web-cv.git
 
-**Use Lovable**
+# Abhängigkeiten installieren
+npm install
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f6d8b22-f4e7-4ff5-a169-6423a43442b1) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Lokale Entwicklungsumgebung starten
 npm run dev
+
+# Produktion bauen
+npm run build
+
+# Vorschau des Produktions-Builds
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 💡 Inhalt
 
-**Use GitHub Codespaces**
+- **Profil:** Übersicht zu meiner Person, Kontaktdaten und Skills
+- **Projekt-Historie:** Details zu ausgewählten Projekten, Rollen und Technologien
+- **Technologien:** Moderne Webtechnologien wie React, Tailwind, Vite, Docker uvm.
+- **Design:** Corporate Branding, responsive und barrierearm
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 👨‍💻 Über mich
 
-This project is built with:
+**Tobias Holtkamp**  
+Senior Consultant SAP, Data & Analytics  
+Geschäftsführer – Holtkamp Consulting GmbH  
+Nordhorn, Germany
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Leidenschaft für Daten, Digitalisierung und innovative Lösungen
+- Langjährige Erfahrung in Beratung, Entwicklung und Projektleitung
+- Fokus auf SAP, Data Analytics, Power BI, Azure und moderne Webentwicklung
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/1f6d8b22-f4e7-4ff5-a169-6423a43442b1) and click on Share -> Publish.
+## 📦 Technologien
 
-## Can I connect a custom domain to my Lovable project?
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Python, Flask
+- **Daten:** PostgreSQL, Data Vault 2.0, Power BI
+- **DevOps:** Docker, Portainer, GIT, VS Code
+- **Collaboration:** Jira, Confluence, OneNote, DrawIO
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📝 Hinweise
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Dieses Projekt ist Open Source und kann gerne geforkt oder erweitert werden.
+- Für Fragen oder Feedback: [tobias@holtkamp-consulting.de](mailto:tobias@holtkamp-consulting.de)
+
+---
