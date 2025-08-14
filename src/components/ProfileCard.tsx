@@ -8,8 +8,12 @@ export const ProfileCard = () => {
     <Card className="glass-card hover:hero-glow transition-all duration-500">
       <CardContent className="p-8">
         <div className="flex flex-col items-center text-center space-y-6">
-          <div className="w-32 h-32 rounded-full bg-gradient-primary flex items-center justify-center text-4xl font-bold text-primary-foreground">
-            TH
+          <div className="w-32 h-32 rounded-full bg-gradient-primary flex items-center justify-center overflow-hidden">
+            <img
+              src="/src/Holtkamp-Tobias.jpg"
+              alt="Tobias Holtkamp"
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <div className="space-y-2">
@@ -30,7 +34,12 @@ export const ProfileCard = () => {
           <div className="flex flex-col space-y-3 w-full max-w-sm">
             <div className="flex items-center space-x-3 text-sm text-muted-foreground">
               <Mail className="w-4 h-4" />
-              <span>tobias@holtkamp-consulting.de</span>
+              <a
+                href="mailto:tobias@holtkamp-consulting.de"
+                className="hover:underline"
+              >
+                tobias@holtkamp-consulting.de
+              </a>
             </div>
             <div className="flex items-center space-x-3 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
@@ -43,13 +52,25 @@ export const ProfileCard = () => {
           </div>
 
           <div className="flex space-x-3">
-            <Button variant="outline" size="sm">
-              <Mail className="w-4 h-4 mr-2" />
-              Contact
+            <Button
+              variant="outline"
+              size="sm"
+              asChild
+            >
+              <a href="https://holtkamp-consulting.de/kontaktanfrage/" target="_blank" rel="noopener noreferrer">
+                <Mail className="w-4 h-4 mr-2" />
+                Contact
+              </a>
             </Button>
-            <Button variant="outline" size="sm">
-              <ExternalLink className="w-4 h-4 mr-2" />
-              Website
+            <Button
+              variant="outline"
+              size="sm"
+              asChild
+            >
+              <a href="https://holtkamp-consulting.de/" target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="w-4 h-4 mr-2" />
+                Website
+              </a>
             </Button>
           </div>
         </div>
