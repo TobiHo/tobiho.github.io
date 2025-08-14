@@ -10,7 +10,7 @@ export const ProfileCard = () => {
         <div className="flex flex-col items-center text-center space-y-6">
           <div className="w-32 h-32 rounded-full bg-gradient-primary flex items-center justify-center overflow-hidden">
             <img
-              src="/src/Holtkamp-Tobias.jpg"
+              src="/Holtkamp-Tobias.jpg"
               alt="Tobias Holtkamp"
               className="w-full h-full object-cover"
             />
@@ -18,7 +18,7 @@ export const ProfileCard = () => {
           
           <div className="space-y-2">
             <h1 className="text-3xl font-bold gradient-text">Tobias Holtkamp</h1>
-            <p className="text-xl text-muted-foreground">Senior Consultant SAP, Data & Analytics</p>
+            <p className="text-xl text-muted-foreground">Senior Consultant SAP, Data & Analytics</p>  
             <p className="text-sm text-muted-foreground">Holtkamp Consulting GmbH</p>
             <p className="text-sm text-muted-foreground">Geschäftsführer</p>
           </div>
